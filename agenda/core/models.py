@@ -15,5 +15,6 @@ class Evento(models.Model):
     def __str__(self):
         return self.titulo
 
-    def get_data_criacao(self):
+    def get_data_evento(self):
+        return self.data_evento.strftime('%d/%m/%y %H:%M')
         
