@@ -1,0 +1,28 @@
+header {
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.logout-button {
+    text-align: right;
+    margin-left: 85vw;
+
+}
+
+.logout-button a {
+    text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+    color: cornsilk;
+    background: rgb(97, 103, 107);
+}
+
+footer a{
+    text-decoration: none;
+    color: cornsilk;
+    margin-top: 1;
+}
